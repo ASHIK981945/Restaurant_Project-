@@ -1,0 +1,188 @@
+/* global selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    background-image: url(craftwand-produkt-modular-wood-wall-system-1-b.jpg);
+    /* Responsive Dropdown Menu Bar Using HTML CSS */
+}
+
+#title{
+     width: 100%;
+    height:100%;
+    padding:80px;
+    position: relative;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+.nav {
+    background-color: black;
+    padding: 1px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+ .nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+} 
+
+.nav a:hover {
+    /* background-color: whitesmoke; */
+    border-radius: 5px;
+} 
+
+.navbar {
+            background-color: whitesmoke;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+         .navbar a {
+            color:black;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 12px;
+        } 
+
+        .navbar a:hover {
+            background-color: rgb(230, 34, 34);
+            border-radius: 5px;
+        } 
+
+        .a{
+            /* height: 50%; */
+            /* width: 100%; */
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+            /* border: 1p solid brown; */
+            column-gap: 20px;
+           }
+           .a1{
+            
+            height: 22vh;
+            width: 15%;
+            background-image:url(b.jpg) ;
+            /* background-color: rgb(0, 0, 0); */
+            text-align: center;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 100px;
+            
+           }
+           /* .a11{
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-size: 40px ;
+                    color: black ;
+                    position:absolute;
+                    top:50%;
+                    left:5;
+                    bottom:-50%;
+           } */
+           
+           .a2{
+            height: 22vh;
+            width: 15%;
+            padding: 10px;
+            background-image:url(D.jpg);
+            text-align: center;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 75px;
+            
+           }
+         
+           .a3{
+            height: 22vh;
+            width: 15%;
+            background-image:url(pork\ \(2\).jpg);
+            text-align: center;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 75px;
+           }
+           .a4{
+            height: 22vh;
+            width: 15%;
+            background-image:url(lok-khana.jpg);
+            text-align: center;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 75px;
+           }
+
+
+           .a5{ 
+             height: 22vh;
+            width: 15%;
+            background-image:url(fish.jpg);
+            text-align: center;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 75px;
+        }
+                  
+table,th,td{ 
+
+        border:1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-large;
+        margin: 100px;
+        background-color: rgb(230, 170, 93);
+        /* background-image: url(p.jpg); */
+        /* background-repeat: no-repeat; */
+        /* color: aliceblue; */
+
+        }
+
+        .Enter{   
+            padding: 50px ;
+            margin: 170px;
+            width: 350px;
+            text-align: center;
+            justify-content: center;
+            box-sizing: border-box;
+            background-color:whitesmoke;
+            color:rgb(45, 45, 45) ;         
+            border: 1px solid black ; 
+            border-radius: 25px;
+            font-size: larger;
+        }
+       .menu.h3{
+      
+        width: 100%;
+        height:100%;
+        padding:80px;
+        position: relative;
+        background-position: center;
+        text-align: center;
+        justify-content: center;
+        color: rgb(248, 245, 245);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:xx-large;
+    }
+       
+        
