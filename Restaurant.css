@@ -26,35 +26,36 @@ body{
     
 }
 
-.nav {
+.firstn {
     background-color: black;
     padding: 1px;
     display: flex;
     justify-content: left;
     gap: 20px;
+    text-decoration: none;
+    list-style: none;
 }
 
- .nav a {
+ .firstn a {
     color: white;
     font-size: 18px;
-    font-weight: bold;
     padding: 8px 12px;
 } 
 
-.nav a:hover {
-
+.firstn a:hover {
     border-radius: 5px;
 } 
 
-.navbar {
+.secondn {
             background-color:whitesmoke;
             padding: 15px;
             display: flex;
             justify-content: center;
             gap: 20px;
+            text-decoration: none;
         }
 
-         .navbar a {
+         .secondn a {
             color:black;
             background-color: whitesmoke;
             font-size: 25px;
@@ -64,8 +65,8 @@ body{
           
         } 
 
-        .navbar a:hover {
-            background-color: rgb(230, 34, 34);
+        .secondn a:hover {
+            background-color: rgb(175, 204, 248);
             border-radius: 5px;
         } 
         .LOGO{
@@ -100,15 +101,6 @@ body{
             border-radius: 100px;
             
            }
-           /* .a11{
-              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                    font-size: 40px ;
-                    color: black ;
-                    position:absolute;
-                    top:50%;
-                    left:5;
-                    bottom:-50%;
-           } */
            
            .a2{
             height: 22vh;
