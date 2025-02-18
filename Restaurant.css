@@ -12,7 +12,7 @@ body{
     /* Responsive Dropdown Menu Bar Using HTML CSS */
 }
 
-#title{
+.title{
      width: 100%;
     height:100%;
     padding:80px;
@@ -22,9 +22,10 @@ body{
     justify-content: center;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-size:45px;
     
 }
+
 
 .firstn {
     background-color: black;
@@ -33,7 +34,8 @@ body{
     justify-content: left;
     gap: 20px;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
+
 }
 
  .firstn a {
@@ -66,8 +68,9 @@ body{
         } 
 
         .secondn a:hover {
-            background-color: rgb(175, 204, 248);
-            border-radius: 5px;
+            /* background-color: rgb(175, 204, 248); */
+            transform: scale(1.05);
+          
         } 
         .LOGO{
     width: 70px;
@@ -85,7 +88,10 @@ body{
             display: flex;
             align-items: center;
             justify-content:center ;
+            text-decoration: none;
+            font-weight: bold;
             /* border: 1p solid brown; */
+            color: black;
             column-gap: 20px;
            }
            .a1{
@@ -238,12 +244,43 @@ table,th,td{
         font-size:xx-large;
     }
         .last{
-            height: 25vh;
-            width: 100%;
-            background-color: black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+    background-color: black;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    height:300Spx;
+    gap: 20px;
+    text-decoration: none;
+    color: aliceblue;
+        }
+        a{
+            text-decoration: none;
+        }
 
+        .about{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            /* align-items: center; */
+            /* justify-content:center ; */
+        }
+        .aboutphoto{
+            background-image: url(my.jpg);
+            height: 50vh;
+            width:200px;
+            /* background-image:url(left-removebg-preview.png); */
+            text-align: center;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+
+        }
+        .abouttext{
+            color: black;
+            font-size: xx-large;
+            justify-content: right;
+             align-items: right;
+            
+          
         }
